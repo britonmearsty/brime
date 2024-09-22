@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example 1</title>
+    <link
+      rel="shortcut icon"
+      href="/PATH_TO_STATIC_FAVICON/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="/PATH_TO_ANIMATED_FAVICON/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="rgba(12,173,188,1)"
+          >
+            <path
+              d="M11.6734 7.22198C10.7974 7.22198 9.44138 6.22598 8.01338 6.26198C6.12938 6.28598 4.40138 7.35397 3.42938 9.04597C1.47338 12.442 2.92538 17.458 4.83338 20.218C5.76938 21.562 6.87338 23.074 8.33738 23.026C9.74138 22.966 10.2694 22.114 11.9734 22.114C13.6654 22.114 14.1454 23.026 15.6334 22.99C17.1454 22.966 18.1054 21.622 19.0294 20.266C20.0974 18.706 20.5414 17.194 20.5654 17.11C20.5294 17.098 17.6254 15.982 17.5894 12.622C17.5654 9.81397 19.8814 8.46998 19.9894 8.40998C18.6694 6.47798 16.6414 6.26198 15.9334 6.21398C14.0854 6.06998 12.5374 7.22198 11.6734 7.22198ZM14.7934 4.38998C15.5734 3.45398 16.0894 2.14598 15.9454 0.849976C14.8294 0.897976 13.4854 1.59398 12.6814 2.52998C11.9614 3.35798 11.3374 4.68998 11.5054 5.96198C12.7414 6.05798 14.0134 5.32598 14.7934 4.38998Z"
+            ></path>
+          </svg>
+        </div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+        <li class="open" onclick="showMenu()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="rgba(47,150,169,1)"
+            >
+              <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+          </a>
+        </li>
+        <ul class="menu">
+          <li class="close" onclick="hideMenu()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="rgba(47,150,169,1)"
+              >
+                <path
+                  d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <div class="hero">
+        <h3>SUNRISE</h3>
+        <h1>YOUR SECOND HOME</h1>
+        <p>Welcome to Sunrise Hostel, your home away from home at 
+            Dedan Kimathi University. Enjoy modern amenities, 
+            comfortable living spaces, and a vibrant community,
+             all designed to support your academic journey. 
+             Book your stay today and experience the 
+            perfect blend of convenience, comfort, and student life!</p>
+            <button>Book Now</button>
+    </div> -->
+    <div id="about" class="about">
+      <h3>About Us</h3>
+      <div class="img">
+        <img src="about.png" alt="Not supported" width="25%" />
+        <p class="about-paragraph">
+          <span></span>
+          If you are a student studying at Dedan Kimathi university and you need
+          student accommodation within walking distance from campus that
+          provides a safe, caring environment conducive to studying and a well
+          rounded student life experience, you have found your home away from
+          home at Maisha Hostels. We at Maisha Hostels fully understand that all
+          young ambitious students need appropriate facilities for their focused
+          studies, but also need to enjoy time with fellow students in a secure,
+          stimulating environment. And so Maisha Hostels provides a variety of
+          on-premises facilities to ensure that you have a well rounded student
+          life experience.
+        </p>
+      </div>
+    </div>
+    <div id="services" class="services">
+      <div class="service-1">
+        <p>free wifi</p>
+      </div>
+      <div class="service-1">
+        <p>Gaming lounge</p>
+      </div>
+      <div class="service-1">
+        <p>clean rooms</p>
+      </div>
+      <div class="service-1">
+        <p>clean water</p>
+      </div>
+      <div class="service-1">
+        <p>security</p>
+      </div>
+      <div class="service-1">
+        <p>reception</p>
+      </div>
+    </div>
+    <!-- <footer>
+      <div class="row">
+        <div class="col">
+          <div class="logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="rgba(12,173,188,1)"
+            >
+              <path
+                d="M11.6734 7.22198C10.7974 7.22198 9.44138 6.22598 8.01338 6.26198C6.12938 6.28598 4.40138 7.35397 3.42938 9.04597C1.47338 12.442 2.92538 17.458 4.83338 20.218C5.76938 21.562 6.87338 23.074 8.33738 23.026C9.74138 22.966 10.2694 22.114 11.9734 22.114C13.6654 22.114 14.1454 23.026 15.6334 22.99C17.1454 22.966 18.1054 21.622 19.0294 20.266C20.0974 18.706 20.5414 17.194 20.5654 17.11C20.5294 17.098 17.6254 15.982 17.5894 12.622C17.5654 9.81397 19.8814 8.46998 19.9894 8.40998C18.6694 6.47798 16.6414 6.26198 15.9334 6.21398C14.0854 6.06998 12.5374 7.22198 11.6734 7.22198ZM14.7934 4.38998C15.5734 3.45398 16.0894 2.14598 15.9454 0.849976C14.8294 0.897976 13.4854 1.59398 12.6814 2.52998C11.9614 3.35798 11.3374 4.68998 11.5054 5.96198C12.7414 6.05798 14.0134 5.32598 14.7934 4.38998Z"
+              ></path>
+            </svg>
+          </div>
+          <p>
+            Enjoy modern amenities, comfortable living spaces, and a vibrant
+            community, all designed to support your academic journey.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Office</h3>
+          <div class="underline"><span></span></div>
+          <p>Nyeri</p>
+          <p>Dedan Kimathi</p>
+          <p>Sunrise</p>
+          <p>(+254) 758939807</p>
+          <p>sunrisehostel@gmail.com</p>
+        </div>
+        <div class="col">
+          <h3>links</h3>
+          <div class="underline"><span></span></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Socials</h3>
+          <div class="underline"><span></span></div>
+          <a href="#"><i class="ri-whatsapp-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+          <a href="#"><i class="ri-twitter-x-fill"></i></a>
+        </div>
+        <div class="col">
+          <h3>Newsletter</h3>
+          <div class="underline"><span></span></div>
+          <form>
+            <input type="email" placeholder="input your email id" required />
+            <button class="send" type="submit">
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright &copy Briton Cheruyot 2024</p>
+    </footer> -->
+  </body>
+</html>
